@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#d6d3ec"
+	tools:context=".shareActivity">
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/half_eclipse"
+		android:text="@string/share_question"
+		android:textAlignment="center"
+		android:textColor="#FFFFFF"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<EditText
+		android:id="@+id/editText_share"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="32dp"
+		android:layout_marginEnd="32dp"
+		android:layout_marginBottom="32dp"
+		android:background="@drawable/rectangle_rounded_corners"
+		android:ems="10"
+		android:gravity="top"
+		android:inputType="textPersonName"
+		android:padding="32dp"
+		android:text="@string/Enter_a_title_of_paticipate"
+		android:textColor="@android:color/darker_gray"
+		android:textSize="20sp"
+		app:layout_constraintBottom_toTopOf="@+id/button_share"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/button_share"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginEnd="16dp"
+		android:layout_marginBottom="16dp"
+		android:background="@drawable/unpressed_purple"
+		android:onClick="onClickShare"
+		android:text="@string/share_question_button"
+		android:textColor="#FFFFFF"
+		android:textSize="20sp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/button_back"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="parent" />
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/button_back"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginEnd="16dp"
+		android:layout_marginBottom="16dp"
+		android:background="@drawable/button_false"
+		android:onClick="onClickBack"
+		android:text="@string/back"
+		android:textColor="#FFFFFF"
+		android:textSize="20sp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toEndOf="@+id/button_share" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

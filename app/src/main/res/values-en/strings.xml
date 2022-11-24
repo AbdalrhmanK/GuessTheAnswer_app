@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">Guesstheanswer1</string>
+
+	<string name="guess_play">Guess the answer</string>
+	<string name="question">Question</string>
+	<string name="button_true">True</string>
+	<string name="button_false">False</string>
+	<string name="share_question">share question with your friends</string>
+	<string name="share_question_button">share question</string>
+	<string name="back">Return</string>
+	<string name="correct_answers">Correct answer is </string>
+	<string name="next_question">Next question</string>
+	<string name="Enter_a_title_of_paticipate">Enter a title of participate</string>
+	<string name="change_lang">change language</string>
+
+
+
+</resources>

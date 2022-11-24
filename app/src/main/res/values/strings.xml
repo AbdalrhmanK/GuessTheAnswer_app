@@ -1,0 +1,56 @@
+<resources>
+	<string name="app_name">Guesstheanswer1</string>
+	<string name="guess_play">لعبة خمن</string>
+	<string name="question">السؤال</string>
+	<string name="button_true">صحيح</string>
+	<string name="button_false">خطأ</string>
+	<string name="share_question">شارك السؤال مع اصدقائك</string>
+	<string name="share_question_button">شارك السؤال</string>
+	<string name="back">الرجوع</string>
+	<string name="correct_answers">الاجابة الصحيحة هي</string>
+	<string name="next_question">السؤال الذي بعده</string>
+	<string name="Enter_a_title_of_paticipate">ادخل عنوان المشاركة</string>
+	<string name="change_lang">تغيير اللغة</string>
+
+	<string-array name="questions">
+
+		<item>   العملة الرسمية لدولة الكويت هي الريال الكويتي؟ </item>
+		<item> توبقال هي أعلى قمة جبلية في العالم العربي؟ </item>
+		<item>الجزائر هي أكبر دولة عربية من حيث المساحة؟ </item>
+		<item> الدار البيضاء هي عاصمة المغرب؟ </item>
+		<item> كابول هى عاصمة افغانستان؟ </item>
+		<item> اضخم الحيوانات اللافقرية هو القنديل؟ </item>
+		<item>الدولة العربية التي يمر بها خط الاستواء هى السودان؟ </item>
+		<item>القلب هو أكبر عضو في جسم الإنسان؟</item>
+		<item>أول مسجد في الإسلام هو المسجد النبوي؟</item>
+		<item>الخال الوحيد لأولاد عمتك هو والدك؟</item>
+		<item>اولى دول العالم انتاجا للموز هى الاكوادور؟</item>
+		<item>الأرجنتين عاصمتها باكو؟</item>
+		<item>عملة فيتنام هى دونج؟</item>
+
+
+	</string-array>
+
+
+	<string-array name="answers_details">
+
+		<item> العملة الرسمية لدولة الكويت هي الدينار الكويتي </item>
+		<item>توبقال هي أعلى قمة جبلية في العالم العربي و تقع في المغرب  </item>
+		<item>الجزائر هي أكبر دولة عربية و إفريقية من حيث المساحة </item>
+		<item> الرباط هي عاصمة المغرب </item>
+		<item>كابول هى عاصمة افغانستان</item>
+		<item> اضخم الحيوانات اللافقرية هو الحبار </item>
+		<item>الدولة العربية التي يمر بها خط الاستواء هى الصومال </item>
+		<item>الكبد هو أكبر عضو في جسم الإنسان</item>
+		<item>أول مسجد في الإسلام هو مسجد قباء</item>
+		<item>الخال الوحيد لأولاد عمتك هو والدك</item>
+		<item>اولى دول العالم انتاجا للموز هى الاكوادور</item>
+		<item>الأرجنتين عاصمتها بونس إيرس</item>
+		<item>عملة فيتنام هى دونج</item>
+
+
+	</string-array>
+
+
+
+</resources>
